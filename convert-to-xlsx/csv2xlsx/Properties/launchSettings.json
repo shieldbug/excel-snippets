@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "csv2xlsx": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\..\\..\\sample.csv"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
