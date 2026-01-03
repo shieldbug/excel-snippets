@@ -6,4 +6,7 @@
     <File Path="../README.md" />
   </Folder>
   <Project Path="csv2xlsx/csv2xlsx.csproj" />
+  <Properties Name="ExtensibilityGlobals" Scope="PostLoad">
+    <Property Name="FileExplorer" Value="..\" />
+  </Properties>
 </Solution>
