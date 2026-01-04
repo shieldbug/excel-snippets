@@ -2,7 +2,7 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace csv2xlsx
+namespace Excel.Snippets
 {
     public static partial class Convert
     {
