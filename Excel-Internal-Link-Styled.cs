@@ -6,7 +6,7 @@ namespace Excel.Snippets
 {
     public static partial class Demo
     {
-        public static void CreateInternalLinkStyledSheet()
+        public static string CreateInternalLinkStyledSheet()
         {
             const string filePath = "InternalHyperlinkStyled.xlsx";
 
@@ -80,6 +80,8 @@ namespace Excel.Snippets
             }
 
             Console.WriteLine("Excel file created: " + filePath);
+
+            return filePath;
 
             // ----------------------
             // Stylesheet definition

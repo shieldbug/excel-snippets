@@ -6,7 +6,7 @@ namespace Excel.Snippets
 {
     public static partial class Demo
     {
-        public static void CreateHyperlinkSheet()
+        public static string CreateHyperlinkSheet()
         {
             const string filePath = "HyperlinkDemo.xlsx";
 
@@ -89,6 +89,7 @@ namespace Excel.Snippets
 
             Console.WriteLine("Excel file created: " + filePath);
 
+            return filePath;
         }
     }
 }

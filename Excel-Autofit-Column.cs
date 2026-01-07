@@ -10,7 +10,7 @@ namespace Excel.Snippets
 {
     public static partial class Demo
     {
-        public static void CreateAutofitColumnSheet()
+        public static string CreateAutofitColumnSheet()
         {
             const string filePath = "AutofitColumnDemo.xlsx";
 
@@ -101,6 +101,8 @@ namespace Excel.Snippets
             }
 
             Console.WriteLine("Excel file created: " + filePath);
+
+            return filePath;
         }
 
         private static Cell GetCell(SheetData sheetData, string columnName, uint rowIndex)

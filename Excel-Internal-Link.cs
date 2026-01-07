@@ -6,7 +6,7 @@ namespace Excel.Snippets
 {
     public static partial class Demo
     {
-        public static void CreateInternallinkSheet()
+        public static string CreateInternalLinkSheet()
         {
             const string filePath = "InternalLinkDemo.xlsx";
 
@@ -72,6 +72,8 @@ namespace Excel.Snippets
             }
 
             Console.WriteLine("Excel file created: " + filePath);
+
+            return filePath;
         }
     }
 }
