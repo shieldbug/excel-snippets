@@ -17,6 +17,7 @@ namespace Excel.Snippets
             ExcelFiles.Add(Demo.CreateInternalLinkStyledSheet());
             ExcelFiles.Add(Demo.CreateAutofitColumnSheet());
             ExcelFiles.Add(Demo.CreateWorkbookWithoutGridlines());
+            ExcelFiles.Add(Demo.CreateWorkbookWithCheckbox());
 
             foreach (string ExcelFile in ExcelFiles)
             {
